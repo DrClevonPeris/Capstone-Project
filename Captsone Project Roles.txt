@@ -1,0 +1,169 @@
+This is a brief idea of what each student can do; you can be flexible with this, but in the end it would be good 
+
+Student 1 — Simulator Setup & Environment
+
+Set up AirSim/SITL and get the drone working in simulation.
+
+Student 2 — Data Processing & Airsim Environment Development
+
+Extract weed zones / coordinates (using the sim4_navigtion_py file as an example). Also build a plant/weed filled field in Airsim with Unreal Engine.  
+
+Student 3 — Spray Decision Algorithm
+
+Develop logic to classify areas into spot spray vs blanket spray.
+
+Student 4 — Integration & Mission Execution
+
+Connect the decision output to navigation or simulated spraying in the simulator.
+
+
+12-Week Plan 
+🟢 Phase 1 — Setup & Understanding (Weeks 1–2)
+🎯 Goal:
+
+Everyone understands the system and gets basic tools working
+
+Week 1
+All students:
+
+Understand project pipeline:
+
+KML → Processing → Decision → Drone → Simulation
+Student 1 (Simulator)
+Install AirSim + ArduPilot SITL
+Run basic drone example
+Student 2 (KML)
+Learn KML structure
+Load KML in Python
+Student 3 (Decision)
+Define rules:
+What is “spot” vs “blanket”?
+Student 4 (Integration)
+Set up GitHub repo
+Define folder structure
+
+Week 2
+Student 1:
+Achieve:
+Drone takeoff + land
+Student 2:
+Extract:
+Coordinates / polygons from script, and download any airsim environment, such as landscape mountains or blocks. 
+Student 3:
+Write basic rule logic (no code yet or simple code) for waypoint navigation. 
+Student 4:
+Ensure:
+Everyone pushes code
+Basic scripts run together
+🟡 Phase 2 — Core Development (Weeks 3–6)
+🎯 Goal:
+
+Each module works independently
+
+Weeks 3–4
+Student 1:
+Stable simulation
+Add simple environment (flat ground)
+Student 2:
+Clean KML parser
+Output structured data (CSV/JSON)
+Start adding objects to Airsim Enviornment
+Student 3:
+Implement algorithm:
+Cluster points
+Compute area / density
+Student 4:
+Begin integration:
+Read processed data
+Pass to navigation layer
+Weeks 5–6
+Student 1:
+Test drone movement via API
+Student 2:
+Provide test datasets using the location of weeds added in Airsim Environment
+Student 3:
+Finalise classification:
+spot vs blanket
+Student 4:
+
+First pipeline test:
+
+KML → Process → Decision → Output file
+
+Phase 3 — Integration & Simulation (Weeks 7–9)
+
+
+Connect everything to the drone
+
+Week 7
+Student 4 leads here
+Combine:
+Student 2 output
+Student 3 decisions
+Student 3:
+
+Output usable format:
+
+x, y, z, spray_type
+Student 1:
+Ensure drone accepts commands
+
+
+Week 8
+Full system test begins:
+KML → Processing → Decision → Drone movement
+Student 4:
+Send waypoints to drone
+Student 1:
+Debug simulator issues
+
+
+Week 9
+Add “spraying simulation”
+At each waypoint:
+print/log:
+“SPOT SPRAY” or “BLANKET SPRAY”
+🔴 Phase 4 — Testing & Refinement (Weeks 10–11)
+🎯 Goal:
+
+Make it reliable and presentable
+
+
+Week 10
+Run multiple scenarios
+Debug issues
+Student 2:
+Edge cases (empty data, noise), give dummy coordinates. 
+Student 3:
+Improve decision rules
+Student 1:
+Improve airsim environment where needed.
+Student 4:
+Ensure pipeline stability
+
+
+Week 11
+Record results:
+logs
+screenshots
+videos
+
+
+🏁 Week 12 — Final Integration & Demo
+🎯 Final System
+Full Pipeline:
+KML file
+   ↓
+KML Processing (Student 2)
+   ↓
+Decision Algorithm (Student 3)
+   ↓
+Navigation Commands (Student 4)
+   ↓
+Drone Simulation (Student 1)
+🎥 Final Demo Should Show:
+Load KML file
+Drone starts simulation
+Drone moves to locations
+At each point:
+indicates spray type
