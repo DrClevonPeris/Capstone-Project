@@ -19,7 +19,7 @@ I have done the process of setting up the Ardupilot, AirSim, and simulation as w
 
 ------------------------
 **Step 4**
-![WSL Setup on Windows Step 4](./screenshots/screenshots/Step4_Installing%20aardupilot_devnv%20in%20WSL.png)
+![WSL Setup on Windows Step 4](./screenshots/Step4_Installing%20aardupilot_devnv%20in%20WSL.png)
 
 ------------------------
 **Step 5**
