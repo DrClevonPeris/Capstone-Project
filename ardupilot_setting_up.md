@@ -23,4 +23,4 @@ I have done the process of setting up the Ardupilot, AirSim, and simulation as w
 
 ------------------------
 **Step 5**
-![WSL Setup on Windows Step 5](./screenshots/Step5_Setting%20up%20WSL.png)
+![WSL Setup on Windows Step 5](./screenshots/Step5_vs%20code%20connected%20with%20WSL.png)
