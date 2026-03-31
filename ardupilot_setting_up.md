@@ -8,3 +8,7 @@ Step 1:
 Step 2
 ![WSL Setup on Windows Step 2](./screenshots/Step2_Setting%20up%20WSL.png)
 
+-----------------------
+
+Step 3
+![WSL Setup on Windows Step 3](./screenshots/Step3_Setting%20up%20WSL.png)
