@@ -18,7 +18,8 @@ I have done the process of setting up the Ardupilot, AirSim, and simulation as w
 ![WSL Setup on Windows Step 3](./screenshots/Step3_Setting%20up%20WSL.png)
 
 ------------------------
-**Step 4**
+**Step 4** **Installing Ardupilot extension for VS Code.
+**
 ![WSL Setup on Windows Step 4](./screenshots/Step4_Installing%20aardupilot_devnv%20in%20WSL.png)
 
 ------------------------
