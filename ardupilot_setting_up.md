@@ -33,4 +33,4 @@ Initially, when attempting to run the simulation using:
 
 "./Tools/autotest/sim_vehicle.py --map –console"
 
-![Ardupilot Directoy missing] (./screenshots/Ardupilot_directory_missing_1.png)
+![Ardupilot Directoy missing](./screenshots/Ardupilot_directory_missing_1.png)
