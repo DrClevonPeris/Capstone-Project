@@ -58,3 +58,16 @@ After successfully navigating to the correct directory, I attempted to run the s
 I resolved this issue by installing the required package using these commands **"pip3 install pexpect"** and **"pip3 install geospy"**
 
 ![Geospy Installation](./screenshots/geopy_installation.png)
+
+----------------------------------
+![subdirectory ArduCopter missing error](./screenshots/ArduoCopter_subdirectory_missing.png)
+
+This error occurred because I executed the simulation command from the wrong directory level. The system could not determine which vehicle type to simulate.
+
+I fixed this issue with the command **"Cd ~/ardupilot/ArduCopter"** And rerunning the command, the simulation started successfully. 
+
+![simulation started successfully](./screenshots/ArduCopter_simulation_started_1.png)
+
+![ArduPilot SITL environment](./screenshots/ArduCopter_simulation_started_2.png)
+
+![ArduPilot SITL environment with console and map](./screenshots/Ardupilot_Map_with_drone_works_1.png)
