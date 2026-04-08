@@ -70,12 +70,13 @@ I fixed this issue with the command **"Cd ~/ardupilot/ArduCopter"** And rerunnin
 
 ![ArduPilot SITL environment](./screenshots/ArduCopter_simulation_started_2.png)
 
-![Enable MAVProxy on Windows] I used this command to enable MAVProxy **"Pip3 install –upgrade pymavlink MAVProxy pexpect"**
+![Enable MAVProxy on Windows](./screenshots/MAV_Proxy command_30.03_done.png)
 
-(./screenshots/MAV_Proxy command_30.03_done.png)
+I used this command to enable MAVProxy **"Pip3 install –upgrade pymavlink MAVProxy pexpect"**
 
+-----------------------------------
 And for the **MAP "../Tools/autotest/sim_vehicle.py –console –map -w"**
 
-(./screenshots/Simulation_Map_is_ready.png)
+![Console with Map](./screenshots/Simulation_Map_is_ready.png)
 
 ![ArduPilot SITL environment with console and map](./screenshots/Ardupilot_Map_with_drone_works_1.png)
