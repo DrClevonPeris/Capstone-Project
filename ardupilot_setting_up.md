@@ -41,4 +41,9 @@ Initially, when attempting to run the simulation using:
 We need to enter our wsl password to finish the installation and to Clone ArduPilot properly, I used this command and successfully done. 
 
 **"Git clone https://github.com/ArduPilot/ardupilot.git"**
+
 ![Ardupilot Installed Successfully](./screenshots/Ardupilot_Installed_successfully.png)
+
+------------------------------
+![Ardupilot Directory or folder](./screenshots/Ardupilot_Installed_successfully_2.png)
+
