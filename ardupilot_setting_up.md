@@ -47,3 +47,14 @@ We need to enter our wsl password to finish the installation and to Clone ArduPi
 ------------------------------
 ![Ardupilot Directory or folder](./screenshots/Ardupilot_Installed_successfully_2.png)
 
+-----------------------------
+
+**Geospy Python error**
+
+After successfully navigating to the correct directory, I attempted to run the simulation again. This time, I encountered a Python error
+
+![Geospy Python error](./screenshots/Geospy_Python_error1.png)
+
+I resolved this issue by installing the required package using these commands **"pip3 install pexpect"** and **"pip3 install geospy"**
+
+![Geospy Installation](./screenshots/geopy_installation.png)
