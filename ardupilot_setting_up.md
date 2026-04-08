@@ -27,11 +27,18 @@ I have done the process of setting up the Ardupilot, AirSim, and simulation as w
 ![WSL Setup on Windows Step 5](./screenshots/Step5_vs%20code%20connected%20with%20WSL.png)
 
 ---------------------------
-**verify the folder and directories using the command**
+**verify the folder or directories using the command**
 
 During the setup of the ArduPilot SITL environment, I encountered several technical issues related to file paths, permissions, and missing dependencies. These errors were important learning points and helped me better understand how the system operates. 
 Initially, when attempting to run the simulation using: 
 
-"./Tools/autotest/sim_vehicle.py --map –console"
+**"./Tools/autotest/sim_vehicle.py --map –console"**
 
 ![Ardupilot Directoy missing](./screenshots/Ardupilot_directory_missing_1.png)
+
+**"Sudo chown -R $USER:$USER /home/jena"**
+
+We need to enter our wsl password to finish the installation and to Clone ArduPilot properly, I used this command and successfully done. 
+
+**"Git clone https://github.com/ArduPilot/ardupilot.git"**
+![Ardupilot Installed Successfully](./screenshots/Ardupilot_Installed_successfully.png)
