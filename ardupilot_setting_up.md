@@ -70,7 +70,7 @@ I fixed this issue with the command **"Cd ~/ardupilot/ArduCopter"** And rerunnin
 
 ![ArduPilot SITL environment](./screenshots/ArduCopter_simulation_started_2.png)
 
-![Enable MAVProxy on Windows](./screenshots/MAV_Proxy command_30.03_done.png)
+![Enable MAVProxy on Windows](./screenshots/MAV_Proxy_command_30.03_done.png).
 
 I used this command to enable MAVProxy **"Pip3 install –upgrade pymavlink MAVProxy pexpect"**
 
