@@ -83,6 +83,7 @@ And for the **MAP "../Tools/autotest/sim_vehicle.py –console –map -w"**
 
 ------------------------
 **Initially, I attempted to control the drone manually through the MAVProxy console using**
+
 commands such as:
 
 − Mode guided  
@@ -92,3 +93,18 @@ commands such as:
 − Takeoff 10 
 
 ![MAVProxy console](./screenshots/Drone_fly_code_mav_proxy_1.png)
+
+--------------------------
+
+**Additionally, I experimented with manual control commands such as:**
+![Made Drone Flying](./screenshots/drone_is_flying_26.03.2026.png)
+
+rc 1 1500
+
+rc 2 1500   
+
+rc 3 1600   
+
+Rc 4 1500 
+
+
