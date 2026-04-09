@@ -80,3 +80,11 @@ And for the **MAP "../Tools/autotest/sim_vehicle.py –console –map -w"**
 ![Console with Map](./screenshots/Simulation_Map_is_ready.png)
 
 ![ArduPilot SITL environment with console and map](./screenshots/Ardupilot_Map_with_drone_works_1.png)
+
+------------------------
+**Initially, I attempted to control the drone manually through the MAVProxy console using**
+commands such as: 
+− Mode guided   
+− Arm throttle   
+− Takeoff 10 
+![MAVProxy console](./screenshots/Drone_fly_code_mav_proxy_1.png)
