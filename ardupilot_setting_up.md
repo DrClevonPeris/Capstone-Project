@@ -119,5 +119,13 @@ The python script(Sim1_Navigation.py) to successfully read latitude, longitude, 
 
 ![Waypoints txt file](./screenshots/Adding_waypoints_txtfile.png)
 
+**Successful Drone Flight in Simulation**
+
+The drone was able to take off and stabilize at the desired altitude. This confirmed that the autopilot system, MAVLink communication, and simulation environment were properly configured and working together.
+
+![Mav proxy, Console and Map Works](./screenshots/MAV_Proxy_command_30.03_done.png)
+
+![Drone flies in simulation](./screenshots/drone_is_flying_28.03.png)
+
 
 
