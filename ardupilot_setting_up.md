@@ -107,4 +107,17 @@ rc 3 1600
 
 Rc 4 1500 
 
+-----------------------------------------
+
+**Create waypoints to make drone fly path**
+eg:
+-35.3632,149.1652,10
+
+![waypoints](./screenshots/Adding_waypoints.png)
+
+The python script(Sim1_Navigation.py) to successfully read latitude, longitude, and altitude values for autonomous navigation
+
+![Waypoints txt file](./screenshots/Adding_waypoints_txtfile.png)
+
+
 
