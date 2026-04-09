@@ -83,8 +83,12 @@ And for the **MAP "../Tools/autotest/sim_vehicle.py –console –map -w"**
 
 ------------------------
 **Initially, I attempted to control the drone manually through the MAVProxy console using**
-commands such as: 
-− Mode guided   
+commands such as:
+
+− Mode guided  
+
 − Arm throttle   
+
 − Takeoff 10 
+
 ![MAVProxy console](./screenshots/Drone_fly_code_mav_proxy_1.png)
