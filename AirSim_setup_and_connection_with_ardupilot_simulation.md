@@ -1,5 +1,7 @@
-I downloaded Airm Relases from official AirSim github web - 
+**I downloaded Airm Relases from official AirSim github web** - 
+
 https://github.com/Microsoft/AirSim/releases
+
 ![AirSim Assets](./screenshots/AirSim_assets.png)
 
 ![AirSim Folder](./screenshots/Airsim_releases.png)
@@ -17,3 +19,8 @@ To resolve this, I modified the settings.json file to use a local and valid loop
 
 ![JSON File Modification](./screenshots/json_edit.png)
 
+**Python Script Modification After AirSim Configuration**
+
+After configuring the AirSim settings.json file to enable communication with ArduPilot using the correct UDP IP and port, it was also necessary to update the Python navigation script to ensure proper connection with the simulated drone.
+
+![Python Modified](./screenshots/Python_modified.png)
