@@ -1,27 +1,49 @@
 # Capstone Project – My Contribution
 
+Prepared by: Sahil Patel
+
+---
+
 ## Overview
-This repository contains my individual contribution to the Capstone Project, including setup and implementation of AirSim and ArduPilot simulation.
+This repository presents my individual contribution to the Capstone Project, focusing on the setup and configuration of AirSim and ArduPilot simulation environment.
 
 ---
 
 ## My Work Evidence
 
-### VS Code Setup
-This screenshot shows successful configuration and execution in VS Code.
+### VS Code & Initial Setup
+This section shows the initial setup and configuration of the development environment.
 
-![VS Code](screenshots/your-image-name.png)
-
----
-
-### AirSim Connection
-This shows the successful connection between AirSim and ArduPilot.
-
-![AirSim](screenshots/your-image-name2.png)
+![Setup](screenshots/11.png)
+![Setup](screenshots/12.png)
 
 ---
 
-### Simulation Output
-This screenshot shows the working simulation environment.
+### Simulation and Configuration Progress
+These screenshots demonstrate the step-by-step progress of AirSim and ArduPilot integration.
 
-![Simulation](screenshots/your-image-name3.png)
+![Simulation](screenshots/13.png)
+![Simulation](screenshots/14.png)
+![Simulation](screenshots/15.png)
+![Simulation](screenshots/16.png)
+
+---
+
+### Error Handling & Troubleshooting
+This section highlights errors encountered during setup and how they were identified and resolved.
+
+![Error](screenshots/17_no file direcroty.png)
+![Error](screenshots/pip-error.png)
+
+---
+
+### Python & MAVLink Setup
+These screenshots show Python environment setup and pymavlink configuration.
+
+![Python](screenshots/18-pyhton.png)
+![Pymav](screenshots/19-pymav.png)
+
+---
+
+## Conclusion
+The above screenshots clearly demonstrate my active involvement in setting up, troubleshooting, and successfully configuring the simulation environment for the Capstone Project.
