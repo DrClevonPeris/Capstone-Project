@@ -1,0 +1,28 @@
+import xml.etree.ElementTree as ET
+import json
+
+file_path = "data/input.kml"
+
+tree = ET.parse(file_path)
+root = tree.getroot()
+
+namespace = {'kml': 'http://www.opengis.net/kml/2.2'}
+
+data = []
+
+for coord in root.findall('.//kml:coordinates', namespace):
+    coord_text = coord.text.strip()
+    points = coord_text.split()
+
+    for point in points:
+        lon, lat, *_ = point.split(',')
+        data.append({
+            "latitude": float(lat),
+            "longitude": float(lon),
+            "altitude": 0
+        })
+
+with open("outputs/output.json", "w") as f:
+    json.dump(data, f, indent=4)
+
+print("Data saved to outputs/output.json")
