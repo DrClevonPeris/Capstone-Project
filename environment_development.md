@@ -18,3 +18,7 @@ During this phase of the project, I focused on setting up and building the AirSi
 The v143 C++ build tools are not actually installed Visual Studio can be installed, but the exact C++ toolset AirSim needs may still be missing. Microsoft’s MSB8020 docs say this error appears when the required platform toolset is not installed or its folder does not exist.
 
 ![MSVC v143 - VS 2022 C++ x64/x86 build tools | Windows SDK ](./screenshots/msvc_missing_error.png)
+
+**Step3 Necessary Tools installation on Visual Studio under Desktop development with C++**
+
+![Required Tools](./screenshots/visualstudio_required_tools.png)
