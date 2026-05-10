@@ -83,3 +83,5 @@ This confirms that the development environment is correctly configured for Git o
 ![successful compilation of the AirSim Unreal Engine environment using Microsoft Visual Studio](./screenshots/compiled_successfully.png)
 
 During the build process, Visual Studio compiled several important AirSim and Unreal Engine modules, including the AirSim plugin libraries and the Blocks environment source files. The output window displayed different stages of the compilation process such as source code compilation, object generation, library linking, and module creation. Files including Blocks.cpp, Module.AirSim.cpp, UE4Editor-Blocks.lib, and UE4Editor-AirSim.lib were generated successfully during this stage.
+
+The Solution Explorer on the right side of the screen also confirmed that the Unreal Engine solution structure was loaded correctly. Multiple engine modules, AirSim plugin files, and automation scripts were visible, showing that the development environment was fully configured and build succeeded synchronized with the project.
