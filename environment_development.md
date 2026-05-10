@@ -24,3 +24,37 @@ The v143 C++ build tools are not actually installed Visual Studio can be install
 ![Required Tools](./screenshots/visualstudio_required_tools.png)
 
 In addition to the main workload, specific build tools and SDK components were verified and selected, including the Windows 11 SDK and multiple versions of the MSVC toolset (v143, v142, and v141). This step was particularly important to ensure compatibility with AirSim’s build requirements, as certain dependencies such as rpclib rely on specific platform toolsets.
+
+![buil.cmd error](./screenshots/build_cmd_error_airsim.png)
+# AirSim Build Failure on Windows — Missing Visual Studio v143 Toolset
+
+## Summary
+
+Attempting to build AirSim on Windows fails during the `rpclib` compilation stage due to a missing Visual Studio C++ toolset (`v143`).
+
+The build process successfully detects:
+
+- PowerShell
+- CMake (`4.2.3-msvc3`)
+- Windows SDK (`10.0.26100.0`)
+
+However, MSBuild fails because the required Visual Studio 2022 C++ build tools are not installed.
+
+---
+
+# Environment
+
+| Component | Version |
+|---|---|
+| OS | Windows |
+| Visual Studio | Visual Studio Community 2022 |
+| CMake | 4.2.3-msvc3 |
+| AirSim Path | `E:\CQU_Drone\AirSim` |
+
+---
+
+# Steps to Reproduce
+
+```cmd
+cd E:\CQU_Drone\AirSim
+build.cmd
