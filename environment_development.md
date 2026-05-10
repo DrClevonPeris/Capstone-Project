@@ -58,3 +58,32 @@ However, MSBuild fails because the required Visual Studio 2022 C++ build tools a
 ```cmd
 cd E:\CQU_Drone\AirSim
 build.cmd
+---------------------------
+
+![ AirSim Repository Clone and Development Environment Setup](./screenshots/S1_Visual Studio_developer_command_promo_t_for_airsim_clone.png)
+
+The Visual Studio Developer Command Prompt environment was successfully initialized, and the Microsoft AirSim repository was cloned successfully from GitHub without errors.
+
+This confirms that the development environment is correctly configured for Git operations and C++ development tooling.
+
+---
+
+# Environment Details
+
+| Component | Status |
+|---|---|
+| Visual Studio Developer Command Prompt | Initialized Successfully |
+| Git | Working |
+| MSBuild | Available |
+| AirSim Repository | Cloned Successfully |
+| Windows SDK Environment | Loaded |
+| Developer Tools Paths | Configured |
+
+---
+
+# Command Executed
+
+```bash
+git clone https://github.com/Microsoft/AirSim.git
+
+---------------
