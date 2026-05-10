@@ -77,12 +77,6 @@ This confirms that the development environment is correctly configured for Git o
 | Windows SDK Environment | Loaded |
 | Developer Tools Paths | Configured |
 
----
-
-# Command Executed
-
-```bash
-git clone https://github.com/Microsoft/AirSim.git
 
 ---------------
 
