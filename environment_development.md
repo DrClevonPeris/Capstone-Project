@@ -53,9 +53,8 @@ However, MSBuild fails because the required Visual Studio 2022 C++ build tools a
 
 ---
 
-# Steps to Reproduce
 
-```cmd
+
 cd E:\CQU_Drone\AirSim
 build.cmd
 
