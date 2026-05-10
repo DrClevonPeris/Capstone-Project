@@ -23,4 +23,4 @@ The v143 C++ build tools are not actually installed Visual Studio can be install
 
 ![Required Tools](./screenshots/visualstudio_required_tools.png)
 
-**![Installation]**
+In addition to the main workload, specific build tools and SDK components were verified and selected, including the Windows 11 SDK and multiple versions of the MSVC toolset (v143, v142, and v141). This step was particularly important to ensure compatibility with AirSim’s build requirements, as certain dependencies such as rpclib rely on specific platform toolsets.
