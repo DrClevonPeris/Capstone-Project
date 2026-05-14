@@ -55,7 +55,7 @@ This section presents my latest practical testing and validation work completed 
 
 A dedicated Python virtual environment was created to isolate project dependencies and support stable ArduPilot simulation testing.
 
-![Virtual Environment Setup](screenshots/L1.png)
+![Virtual Environment Setup](ss/L1.png)
 
 **Validation Result:**  
 ✅ Python virtual environment configured successfully  
