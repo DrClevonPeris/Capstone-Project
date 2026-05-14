@@ -147,7 +147,7 @@ Waypoint communication and Return-To-Launch functionality were tested successful
 
 The AI/computer vision environment required for weed detection testing was successfully configured using Ultralytics YOLO, OpenCV, and related Python libraries.
 
-![AI Weed Detection Environment](screenshots/L8.png)
+![AI Weed Detection Environment](L8.png)
 
 **Validation Result:**  
 ✅ Ultralytics YOLO installed successfully  
