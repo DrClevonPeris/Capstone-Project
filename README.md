@@ -55,7 +55,7 @@ This section presents my latest practical testing and validation work completed 
 
 A dedicated Python virtual environment was created to isolate project dependencies and support stable ArduPilot simulation testing.
 
-![Virtual Environment Setup](screenshots/L1.png)
+![Virtual Environment Setup](L1.png)
 
 **Validation Result:**  
 ✅ Python virtual environment configured successfully  
@@ -67,7 +67,7 @@ A dedicated Python virtual environment was created to isolate project dependenci
 
 Required MAVLink communication libraries and simulation dependencies were installed successfully, including `pexpect`, `pymavlink`, `MAVProxy`, `dronekit`, and `future`.
 
-![Dependency Installation](screenshots/L2.png)
+![Dependency Installation](L2.png)
 
 **Validation Result:**  
 ✅ MAVProxy installed successfully  
@@ -80,7 +80,7 @@ Required MAVLink communication libraries and simulation dependencies were instal
 
 The ArduPilot SITL simulation environment was configured and launched successfully.
 
-![SITL Startup](screenshots/L3.png)
+![SITL Startup](L3.png)
 
 **Validation Result:**  
 ✅ SITL build process validated  
@@ -93,7 +93,7 @@ The ArduPilot SITL simulation environment was configured and launched successful
 
 Drone control mode testing was performed through MAVProxy command validation.
 
-![Guided Mode Validation](screenshots/L4.png)
+![Guided Mode Validation](L4.png)
 
 **Validation Result:**  
 ✅ GUIDED mode functioning correctly  
@@ -107,7 +107,7 @@ Drone control mode testing was performed through MAVProxy command validation.
 Autonomous drone takeoff testing was performed using MAVProxy commands:
 
 
-![Autonomous Takeoff](screenshots/L5.png)
+![Autonomous Takeoff](L5.png)
 
 **Validation Result:**  
 ✅ Drone armed successfully  
@@ -120,7 +120,7 @@ Autonomous drone takeoff testing was performed using MAVProxy commands:
 
 Real-time MAVLink telemetry and drone sensor information were monitored during simulation testing.
 
-![Live Telemetry](screenshots/L6.png)
+![Live Telemetry](L6.png)
 
 **Validation Result:**  
 ✅ Real-time telemetry operational  
@@ -133,7 +133,7 @@ Real-time MAVLink telemetry and drone sensor information were monitored during s
 
 Waypoint communication and Return-To-Launch functionality were tested successfully.
 
-![Waypoint and RTL Testing](screenshots/L7.png)
+![Waypoint and RTL Testing](L7.png)
 
 **Validation Result:**  
 ✅ Waypoint communication operational  
