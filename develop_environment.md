@@ -75,7 +75,7 @@ A custom paddy field simulation environment is currently under development by th
 
 --------------------------
 
-![Created Environment for testing](../screenshots/D3_Env_test.png)
+![Created Environment for testing](./screenshots/D3_Env_test.png)
 
 Current development activities include:
 
