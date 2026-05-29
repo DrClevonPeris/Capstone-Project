@@ -13,7 +13,7 @@ Unreal Engine 4.27 was installed and configured as the primary simulation platfo
 The AirSim plugin was integrated into the Unreal Engine environment to provide drone simulation capabilities and communication with external control systems. Several sample environments, including Blocks and Landscape Mountains, were successfully tested to verify correct AirSim operation.
 
 ---
-![Drone_Flyies in Unreal Engine](./screenshots/drone_flies_in_unreal.png)
+
 ## AirSim Integration
 
 Microsoft AirSim was configured within the Unreal Engine project to simulate multirotor drone operations. The AirSim settings file was modified to support multirotor flight and communication with external control software.
@@ -92,7 +92,7 @@ The environment will be used to evaluate autonomous drone navigation, weed detec
 ## Current Achievements
 
 The following milestones have been completed:
-
+![Drone_Flyies in Unreal Engine](./screenshots/drone_flies_in_unreal.png)
 * Unreal Engine installed and configured
 * Visual Studio integration completed
 * AirSim successfully compiled and deployed
