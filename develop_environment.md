@@ -48,6 +48,8 @@ The following tools were configured:
 
 ## MAVProxy Console and Map
 
+![Mav_Proxy](./screenshots/Ardupilot_Map_with_drone_works_1.png)
+
 MAVProxy was successfully configured to provide real-time telemetry monitoring and mission control.
 
 Features verified include:
