@@ -70,6 +70,8 @@ The map interface displays the simulated drone position and enables future waypo
 ![Block_Paddy Field Environment](./screenshots/Block_enviornment_1.png)
 A custom paddy field simulation environment is currently under development by the project team. Environment assets and landscape components are being prepared and integrated into Unreal Engine.
 
+![Yellow means weed](./screenshots/D_2_apply_yellow.png)
+
 Current development activities include:
 
 * Landscape creation
