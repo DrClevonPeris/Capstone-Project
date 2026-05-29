@@ -30,7 +30,7 @@ The following components were successfully configured:
 
 ## ArduPilot SITL Configuration
 
-[ArudoCopter](./screenshots/ArduCopter_simulation_started_2.png)
+![ArudoCopter](./screenshots/ArduCopter_simulation_started_2.png)
 
 ArduPilot Software-In-The-Loop (SITL) was installed and configured using Windows Subsystem for Linux (WSL Ubuntu 22.04).
 
