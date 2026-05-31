@@ -83,37 +83,28 @@ Once executed, ArduPilot SITL started successfully, and MAVProxy console and map
 
 ## Shell Script for Navigation Program
 
+![Shell for navigation](./screenshots/Shellfilefor_open_navigation.png)
 A second shell script was created to run the Python navigation script.
 
 File name:
 
-```bash
-run_navigation.sh
-```
+**run_navigation.sh**
 
 This script changes directory to the drone project folder and runs the Python file.
 
-```bash
-#!/bin/bash
-
+**#!/bin/bash
 echo "Starting Navigation Script..."
-
 cd ~/ardupilot/drone_project_cqu || exit
-
-python3 Sim1_Navigation.py
-```
+python3 Sim1_Navigation.py**
 
 The file was also made executable:
 
-```bash
-chmod +x run_navigation.sh
-```
+**chmod +x run_navigation.sh**
 
 The navigation script can then be started using:
 
-```bash
-./run_navigation.sh
-```
+**./run_navigation.sh**
+
 
 ![Navigation script running in terminal](images/shellfile_navigation_running.png)
 
