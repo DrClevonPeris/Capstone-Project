@@ -160,28 +160,27 @@ This means ArduPilot had not yet completed its GPS/EKF position estimation. The 
 
 To avoid this issue, the simulation should be given enough time to initialise before running the navigation script. Waiting around 30 to 60 seconds after starting SITL usually solves the problem.
 
-![PreArm position estimate issue in MAVProxy](images/shellfile_prearm_issue.png)
-
 ---
 
 ## Setting ArduPilot as Default WSL Folder
 
+
 To make the workflow faster, the WSL terminal was configured to open directly inside the ArduPilot folder.
 
-The following lines were added at the end of the `.bashrc` file:
+The following lines were added at the end of the **".bashrc" file:**
 
-```bash
+![Bashrc_file set to default for ardupilot](./screenshots/bashrc_default.png)
+
 # to make ardupilot default
-if [ "$PWD" = "$HOME" ]; then
+**if [ "$PWD" = "$HOME" ]; then
     cd ~/ardupilot
-fi
-```
+fi**
+
 
 After this change, every new WSL terminal automatically opens at:
 
-```bash
-~/ardupilot
-```
+**~/ardupilot**
+
 
 This saves time because the shell scripts can be executed immediately.
 
@@ -193,21 +192,16 @@ The final workflow is simple and organised.
 
 ### Terminal 1
 
-```bash
-./run_project.sh
-```
+**./run_project.sh**
 
 This starts ArduPilot SITL, MAVProxy console, map, and MAVLink output forwarding.
 
 ### Terminal 2
 
-```bash
-./run_navigation.sh
-```
+**./run_navigation.sh**
 
 This starts the autonomous navigation script.
 
----
 
 ## Summary
 
