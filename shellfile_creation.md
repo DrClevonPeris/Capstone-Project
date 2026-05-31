@@ -1,10 +1,10 @@
-Steps I have done to simulation easier and quickest
+
 
 # Shell File Creation for ArduPilot SITL and Navigation Script
 
 ## Overview
 
-This section explains the creation of shell scripts used to simplify the execution process of the ArduPilot SITL simulation and the Python-based drone navigation program. Instead of manually typing long commands every time, shell files were created to automate the startup process.
+In This section I explain the Steps I followed to simulation easier and quickest by creating shell scripts in WSL (Windows Subsystem for linux) used to simplify the execution process of the ArduPilot SITL simulation and the Python-based drone navigation program. Instead of manually typing long commands every time, shell files were created to automate the startup process.
 
 The shell scripts help to run the simulation in a more organised and repeatable way. This is useful for testing, demonstration, and project documentation.
 
@@ -59,15 +59,15 @@ The `--console` option opens the MAVProxy console, and the `--map` option opens 
 
 After creating the shell file, permission was given using the following command:
 
-```bash
-chmod +x run_project.sh
-```
+
+**chmod +x run_project.sh**
+
 
 Then the script was executed using:
 
-```bash
-./run_project.sh
-```
+
+**./run_project.sh**
+
 
 Once executed, ArduPilot SITL started successfully, and MAVProxy console and map windows opened.
 
