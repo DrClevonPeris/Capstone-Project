@@ -88,6 +88,46 @@ Current development activities include:
 The environment will be used to evaluate autonomous drone navigation, weed detection algorithms, and spraying operations.
 
 ---
+## Drone Control Testing
+
+Initial drone control testing was conducted using MAVProxy commands and Python scripts.
+
+Basic flight commands successfully tested include:
+
+mode GUIDED
+arm throttle
+takeoff 10
+
+The drone was able to:
+
+Arm successfully
+Take off autonomously
+Maintain altitude
+Receive navigation commands
+Land safely
+
+These tests verified the communication chain between the simulation components.
+
+----------
+## Python Integration
+
+Python was selected as the primary programming language for automation and future computer vision integration.
+
+The Python environment was configured with:
+
+pymavlink
+AirSim API
+OpenCV
+NumPy
+
+Python scripts were used to:
+
+Connect to AirSim
+Control drone movement
+Test autonomous flight sequences
+Prepare for future weed detection integration
+
+-------------
 
 ## Current Achievements
 
