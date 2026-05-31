@@ -78,7 +78,7 @@ Then the script was executed using:
 
 Once executed, ArduPilot SITL started successfully, and MAVProxy console and map windows opened.
 
-![Make Shell file executeable](./screenshots/make_shellfile_executeable.png)
+
 
 ---
 
