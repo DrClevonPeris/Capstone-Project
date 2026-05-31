@@ -73,12 +73,13 @@ Then the script was executed using:
 
 
 **./run_project.sh**
-![run_project.sh](.terminal_run1)
+
+![run_project.sh](./screenshots/terminal_run1.png)
 
 
 Once executed, ArduPilot SITL started successfully, and MAVProxy console and map windows opened.
 
-
+![Make Shell file executeable](./screenshots/make_shellfile_executeable.png)
 
 ---
 
