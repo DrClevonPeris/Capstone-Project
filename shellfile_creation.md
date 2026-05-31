@@ -11,6 +11,10 @@ The shell scripts help to run the simulation in a more organised and repeatable 
 ---
 ![Shell file creation run_project.sh](./screenshots/create_shellFile_1.png)
 
+-----------
+
+![Shell file for run_navigation.sh](./screenshots/Create_shellFile_2.png)
+
 ## Purpose of Creating Shell Files
 
 Initially, the ArduPilot SITL simulation and navigation script had to be started manually using terminal commands. This process required changing directories and typing multiple commands each time.
