@@ -94,6 +94,7 @@ Initial drone control testing was conducted using MAVProxy commands and Python s
 
 Basic flight commands successfully tested include:
 
+![MAV Proxy Successfully working](./screenshots/MAV_Proxy_command_30.03_done.png)
 mode GUIDED
 arm throttle
 takeoff 10
