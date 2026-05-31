@@ -9,7 +9,7 @@ In This section I explain the Steps I followed to simulation easier and quickest
 The shell scripts help to run the simulation in a more organised and repeatable way. This is useful for testing, demonstration, and project documentation.
 
 ---
-![Shell file creation run_project.sh](.screenshots/create_shellFile_1.png)
+![Shell file creation run_project.sh](./screenshots/create_shellFile_1.png)
 
 ## Purpose of Creating Shell Files
 
