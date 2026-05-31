@@ -111,6 +111,7 @@ These tests verified the communication chain between the simulation components.
 ----------
 ## Python Integration
 
+![Python Script for Drone integration](./screenshots/Drone_controll_pyhtonscript_1.png)
 Python was selected as the primary programming language for automation and future computer vision integration.
 
 The Python environment was configured with:
