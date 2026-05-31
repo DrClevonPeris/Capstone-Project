@@ -9,6 +9,7 @@ In This section I explain the Steps I followed to simulation easier and quickest
 The shell scripts help to run the simulation in a more organised and repeatable way. This is useful for testing, demonstration, and project documentation.
 
 ---
+![Shell file creation run_project.sh](.screenshots/create_shellFile_1.png)
 
 ## Purpose of Creating Shell Files
 
@@ -31,13 +32,10 @@ The first shell file was created inside the ArduPilot directory.
 
 File name:
 
-```bash
-run_project.sh
-```
+**run_project.sh**
 
 The purpose of this file is to start ArduPilot SITL for the ArduCopter vehicle.
 
-```bash
 #!/bin/bash
 
 echo "Starting ArduPilot SITL..."
@@ -49,7 +47,7 @@ cd ~/ardupilot/ArduCopter || exit
     --console \
     --map \
     --out=127.0.0.1:14550
-```
+
 
 The `--console` option opens the MAVProxy console, and the `--map` option opens the map window. The `--out=127.0.0.1:14550` option automatically forwards MAVLink data to port `14550`, which is used by the Python navigation script.
 
