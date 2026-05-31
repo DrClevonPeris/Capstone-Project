@@ -121,6 +121,7 @@ AirSim API
 OpenCV
 NumPy
 
+![Python_Guided_Scripts](./screenshots/Drone_controll_pyhtonscript_guided_2.png)
 Python scripts were used to:
 
 Connect to AirSim
