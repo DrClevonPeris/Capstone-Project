@@ -16,7 +16,6 @@ The shell scripts help to run the simulation in a more organised and repeatable 
 ![Shell file for run_navigation.sh](./screenshots/Create_shellFile_2.png)
 
 --------------
-![Make Shell file executeable](./screenshots/make_shellfile_executeable.png)
 
 ## Purpose of Creating Shell Files
 
@@ -76,7 +75,7 @@ Then the script was executed using:
 
 Once executed, ArduPilot SITL started successfully, and MAVProxy console and map windows opened.
 
-![ArduPilot SITL running with MAVProxy console and map](images/shellfile_sitl_running.png)
+![Make Shell file executeable](./screenshots/make_shellfile_executeable.png)
 
 ---
 
