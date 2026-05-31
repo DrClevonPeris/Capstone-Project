@@ -73,6 +73,7 @@ Then the script was executed using:
 
 
 **./run_project.sh**
+![run_project.sh](.terminal_run1)
 
 
 Once executed, ArduPilot SITL started successfully, and MAVProxy console and map windows opened.
@@ -105,8 +106,7 @@ The navigation script can then be started using:
 
 **./run_navigation.sh**
 
-
-![Navigation script running in terminal](images/shellfile_navigation_running.png)
+![Navigation script running in terminal](screenshots/terminal_run2.png)
 
 ---
 
@@ -114,17 +114,17 @@ The navigation script can then be started using:
 
 Previously, MAVProxy required the following command to be entered manually:
 
-```text
-output add 127.0.0.1:14550
-```
+
+**output add 127.0.0.1:14550**
+
 
 This was required so the Python navigation program could receive MAVLink messages from ArduPilot SITL.
 
 Later, this step was automated by adding the following option to `run_project.sh`:
 
-```bash
---out=127.0.0.1:14550
-```
+
+**--out=127.0.0.1:14550**
+
 
 Because of this improvement, the output connection is now created automatically when SITL starts.
 
@@ -151,9 +151,9 @@ This means manual commands such as `mode guided`, `arm throttle`, and `takeoff` 
 
 During testing, the drone sometimes stopped at the arming stage. The MAVProxy console showed the message:
 
-```text
-PreArm: Need Position Estimate
-```
+
+**PreArm: Need Position Estimate**
+
 
 This means ArduPilot had not yet completed its GPS/EKF position estimation. The drone cannot arm until the position estimate becomes valid.
 
